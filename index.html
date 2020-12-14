@@ -1,0 +1,298 @@
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<title>Cuisinophilia</title>
+	<link href="https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=The+Girl Next Door&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="./css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  </head>
+  <body>
+	<div class="modal" data-modal="1">
+		<form action="#">
+			<button id="close" class="close">X</button>
+			<div class="data">
+					<label>Email or Phone</label>
+					<input type="text" required>
+			</div>
+			<div class="data">
+				<label>Password</label>
+				<input type="password" required>
+			</div>
+			<div class="forgot-pass">
+				<a href="#">Forgot Password?</a>
+			</div>
+			<div class="btn">
+				<div class="inner">
+				</div>
+				<button type="submit">login</button>
+			</div>
+			<div class="signup-link">
+			Not a member? <a href="#">Signup now</a>
+			</div>
+		</form>
+	</div>
+	<div class="overlay"></div>
+	<div class="container">
+	<header class="header">
+		<h1 class="header_title">Culinophilia</h1>
+		<form class="search">
+			<input type="text" class="search_input" placeholder="Find a recipe">
+		</form>
+		<a href="#subscribe" target="blank" class="subscribe_link">Subscribe</a>
+		<button class="sign_in_link" data-modal="1" id="show">Sign in</button>
+	</header>
+		<section class="hero">
+			<nav class="hero_nav">
+				<ul class="nav_list">
+					<li class="nav_list_item">
+						<a href="" target="blank" class="nav_link">Breakfast recepies</a>
+					</li>
+					<li class="nav_list_item">
+						<a href="" target="blank" class="nav_link">Lunch recepies</a>
+					</li>
+					<li class="nav_list_item">
+						<a href="" target="blank" class="nav_link">Dinner recepies</a>
+					</li>
+					<li class="nav_list_item">
+						<a href="" target="blank" class="nav_link">Appertizer recepies</a>
+					</li>
+					<li class="nav_list_item">
+						<a href="" target="blank" class="nav_link">Desert recepies</a>
+					</li>
+					<li class="nav_list_item"> 
+						<a href="" target="blank" class="nav_link">Drink recepies</a>
+					</li>
+				</ul>
+			</nav>
+			<h1 class="hero_title">Your new way	<br> of cooking<h1>
+		</section>
+		<div class="wrapper">
+			<section class="tranding">
+				<h2 class="tranding_title">Tranding</h2>
+				<div class="slider_bg">
+					<div class="slider">
+						<div class="swiper-container">
+						<div class="swiper-wrapper">
+						  <div class="swiper-slide" id="swiper_1">
+							<span class="swiper_1_txt">Choco balls</span>
+						  </div>
+						  <div class="swiper-slide" id="swiper_2">
+							<span class="swiper_1_txt">Classic Peanut Butter Cookies</span>
+							</div>
+						  <div class="swiper-slide" id="swiper_3">
+							<span class="swiper_1_txt">Whipped Cream</span>
+						  </div>
+						  <div class="swiper-slide" id="swiper_4">
+							<span class="swiper_1_txt">Best Brownies</span>
+						  </div>
+						  <div class="swiper-slide" id="swiper_5">
+							<span class="swiper_1_txt">Juicy Roasted Chicken</span>
+						  </div>
+						</div>
+						<!-- Add Arrows -->
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+						<!-- Add Pagination -->
+						<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="recipes">
+				<h2 class="recipes_title">New recipes</h2>
+				<div class="cards">
+					<ul class="card_list">
+						<li class="card_item">
+							<div class="card_image">
+								<!--BG Image Here-->
+							</div>
+							<h3 class="card_title">Hot chocolate bombs</h3>
+							<div class="card_wrapper">
+								<p class="card_subtitle">
+									Place Place a frozen chocolate bomb 
+									in a cup of steaming hot milk, stir, 
+									and voila!...
+								</p>
+								<p class="card_author">
+									by <a href="#" class="author_link">BlueGirl</a>
+								</p>
+								<div class="card_raiting">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/grey-star.png" alt="star">
+								</div>
+							</div>
+						</li>
+						<li class="card_item">
+							<a href="second_page.html">
+								<div class="card_image">
+								<!--BG Image Here-->
+								</div>
+							</a>
+							<h3 class="card_title">Simple Roasted Butternut Squash</h3>
+							<div class="card_wrapper">
+								<p class="card_subtitle">
+									Butternut squash is so good on its own, that barely any seasoning is needed...
+								</p>
+								<p class="card_author">
+									by <a href="#" class="author_link">MChele</a>
+								</p>
+								<div class="card_raiting">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/grey-star.png" alt="star">
+									<img src="img/grey-star.png" alt="star">
+								</div>
+							</div>
+						</li>
+						<li class="card_item">
+							<div class="card_image">
+								<!--BG Image Here-->
+							</div>
+							<h3 class="card_title">Pecan Pie</h3>
+							<div class="card_wrapper">
+								<p class="card_subtitle">
+									This is a wonderfully rich, Southern pie recipe that is the best I've tried!
+								</p>
+								<p class="card_author">
+									by <a href="#" class="author_link">Linda Seay</a>
+								</p>
+								<div class="card_raiting">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/grey-star.png" alt="star">
+								</div>
+							</div>
+						</li>
+						<li class="card_item">
+							<div class="card_image">
+								<!--BG Image Here-->
+							</div>
+							<h3 class="card_title">Yukon Cornelius Pull-Apart Cupcake Cake</h3>
+							<div class="card_wrapper">
+								<p class="card_subtitle">
+									This dessert is almost too cute to pull apart and enjoy!...
+								</p>
+								<p class="card_author">
+									by <a href="#" class="author_link">Kim</a>
+								</p>
+								<div class="card_raiting">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+								</div>
+							</div>
+						</li>
+						<li class="card_item">
+							<div class="card_image">
+								<!--BG Image Here-->
+							</div>
+							<h3 class="card_title">Alfredo Sauce</h3>
+							<div class="card_wrapper">
+								<p class="card_subtitle">
+									Rich and creamy! I have found that Parmesan cheese doesn't melt well, and...
+								</p>
+								<p class="card_author">
+									by <a href="#" class="author_link">Rebecca Swift</a>
+								</p>
+								<div class="card_raiting">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/grey-star.png" alt="star">
+								</div>
+							</div>
+						</li>
+						<li class="card_item">
+							<div class="card_image">
+								<!--BG Image Here-->
+							</div>
+							<h3 class="card_title">Guacamole</h3>
+							<div class="card_wrapper">
+								<p class="card_subtitle">
+									PYou can make this avocado salad smooth or chunky depending on your...
+								</p>
+								<p class="card_author">
+									by <a href="#" class="author_link">Bob Cody</a>
+								</p>
+								<div class="card_raiting">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+									<img src="img/yellow-star.png" alt="star">
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="recipes_buttons">
+					<button class="recipes_button">1</button>
+					<button class="recipes_button">2</button>
+					<button class="recipes_button">3</button>
+					<button class="recipes_button">4</button>
+					<button class="recipes_button">5</button>
+				</div>
+			</section>
+		</div>
+		<section class="subscribe">
+			<div class="wrapper">
+				<ul class="email_form">
+					<li class="email_form_el"><p class="email_form_title" id="subscribe">Subscribe</p></li>
+					<li class="email_form_el"><p class="email_form_subtitle">E-mail</p></li>
+					<li class="email_form_el"><input class="email_input" type="email" placeholder="yourmail@mail.com"></li>
+				</ul>
+				<ul class="learn_more_list">
+					<li class="learn_more_item"><h2 class="learn_more_title">Learn More</h2></li>
+					<li class="learn_more_item"><a href="#" class="learn_more_link"><p>About us</p></a></li>
+					<li class="learn_more_item"><a href="#"	class="learn_more_link"><p>Subscribe</p></a></li>
+					<li class="learn_more_item"><a href="#"	class="learn_more_link"><p>Adversite</p></a></li>
+					<li class="learn_more_item"><a href="#"	class="learn_more_link"><p>Site map</p></a></li>
+				</ul>
+				<div class="connect">
+					<h3 class="connect_title">Connect</h3>
+					<p class="connect_subtitle">Follow us</p>
+					<ul class="social_links">
+						<li onclick="location.href='#';" class="social_link"><img src="./img/twitter.png" alt="twitter" class="social_link_img"><a href="#"></a></li>
+						<li onclick="location.href='#';" class="social_link"><img src="./img/instagram.png" alt="instagram" class="social_link_img"></li>
+						<li onclick="location.href='#';" class="social_link"><img src="./img/facebook.png" alt="facebook" class="social_link_img"></li>
+						<li onclick="location.href='#';" class="social_link"><img src="./img/youtube.png" alt="youtube" class="social_link_img"></li>
+						<li onclick="location.href='#';" class="social_link"><img src="./img/linkedin.png" alt="linkedin" class="social_link_img"></li>
+						<li onclick="location.href='#';" class="social_link"><img src="./img/printerest.png" alt="printerest" class="social_link_img"></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="wrapper">
+				<div class="img_footer">	
+				</div>
+				<p class="copyright">Cuisinophilia is part of the Valson’s Food Group. © Copyright 2020 Valson’s food group link opens in a new tab. All Rights Reserved.	</p>
+				<div class="terms">
+					<ul class="terms_list">
+						<li class="terms_element"><a href="#">Privacy policy</a></li>
+						<li class="terms_element"><a href="#">Terms of service</a></li>
+						<li class="terms_element"><a href="#">Ad choices</a></li>
+						<li class="terms_element"><a href="#">Web accessibility</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+  </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="./js/main.js"></script>
+  </body>
+</html>
+  

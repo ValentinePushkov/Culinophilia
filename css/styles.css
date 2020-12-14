@@ -1,0 +1,867 @@
+.wrapper {
+	max-width: 1130px;
+	margin: auto;
+}
+
+
+.header{
+    height: 80px;
+	background-color: #272727;
+	padding: 0 50px;
+	display:flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.header_title{
+    font-family: Lexend Exa;
+    text-align: center;
+    font-size: 44px;
+    letter-spacing: 0;
+	color: white;
+	margin-right: auto;
+}
+
+.search{
+	border: 2px solid white;
+	border-radius: 25px;
+	padding: 0 20px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+}
+
+.search_input{
+	background: none;
+	height: 45px;
+	border: none;
+	font-size: 24px;
+	color: white;
+	width: 250px;
+	background-image: url(../img/search-icon.png);
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	background-position: center left;
+}
+
+.search_input:focus{
+	outline: none;
+	
+}
+.search_input::placeholder{
+	font-family: Lexend Exa;
+}
+
+
+.search_submit{
+	height: 40px;
+	width: 40px;
+	background: none;
+	outline: none;
+	border: none;
+}
+
+.search_icon{
+	color: white;
+}
+
+.subscribe_link{
+	padding: 10px 16px;
+	color: white;
+	background: #272727;
+	border-radius: 25px;
+	margin-left: 25px;
+	text-decoration: none;
+	font-size: 24px;
+	border: 2px solid white;
+	display: flex;
+	text-align: center;
+	font-family: Lexend Exa;
+	
+}
+.subscribe_link:hover {
+	background-color: #fff;
+	color: #272727;
+}
+
+.sign_in_link{
+	padding: 7px 16px;
+	color: black;
+	background-color: white;
+	border-radius: 25px;
+	margin-left: 25px;
+	text-decoration: none;
+	font-size: 24px;
+	outline: none;
+	font-family: Lexend Exa;
+	display: block;
+	border: none;
+}
+
+.hero {
+	max-height: 1238px;
+	height: calc(100vh - 80px);
+	background-image: url("../img/bg.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.nav_list{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding: 0 20px;
+}
+
+
+
+.nav_list_item{
+	max-width: 180px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 15px;
+}
+
+.nav_link{
+	text-decoration: none;
+	padding: 15px 0;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	font-family: Lexend Exa;
+	opacity: 0.85;
+	line-height: 30px;
+}
+
+.nav_link:hover{
+	opacity: 1;	
+}
+
+.hero_title{
+	font-size: 96px;
+	line-height: 177px;
+	font-family: The Girl Next Door;
+	text-align: center;
+	text-shadow:1px black;
+	color: white;
+	-webkit-text-stroke: 1px black;
+	margin-top: 80px;
+}
+.hero_nav{
+	margin-top: 128px;
+}
+
+
+.tranding{
+	justify-content:center;	
+}
+
+.tranding_title {
+	margin-top: 25px;
+	font-family: Lexend Exa;
+	font-size: 36px;
+	text-align: center;
+	color: #000000;
+	justify-content:center;	
+}
+
+.slider_bg {
+	height: 705px;
+	left: 120px;
+	margin: 100px auto auto auto;
+    position: relative;
+}
+.slider{
+	opacity: 1;
+    width: 920px;
+    height: 540px;
+	position: absolute;
+}
+.swiper-button-next{
+	color:black;
+}	
+.swiper-button-prev{
+	color:black;
+}
+.swiper-pagination-bullet-active {
+	background-color: black;
+}
+#swiper_1{
+	background-image: url(../img/balls.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#swiper_2{
+	background-image: url(../img/cookies.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#swiper_3{
+	background-image: url(../img/cream.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#swiper_4{
+	background-image: url(../img/brownie.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+#swiper_5{
+	background-image: url(../img/chicken.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper_1_txt{
+	color: rgba(247.56250709295273, 247.56250709295273, 247.56250709295273, 1);
+    opacity: 1;
+    position: absolute;
+    left: 30px;
+    top: 380px;
+    font-family: Lexend Exa;
+    text-align: center;
+    font-size: 68px;
+    letter-spacing: 0;
+	-webkit-text-stroke: 1px black;
+	text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+.recipes_title {
+	font-family: Lexend Exa;
+	font-size: 36px;
+	line-height: 45px;
+	color: #000000;
+	margin-bottom: 45px;
+}
+
+.card_list {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.card_item {
+	position: relative;
+	width: 320px;
+	height: 400px;
+	border: 1px solid #CACACA;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card_wrapper {
+	max-width: 300px;
+	margin: auto;
+}
+
+.card_image {
+	height: 216px;
+	background: url(../img/balls.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 10px;
+}
+
+.card_item:nth-child(1) .card_image {
+    background-image: url(../img/balls.png);
+}
+
+.card_item:nth-child(2) .card_image {
+    background-image: url(../img/squash.png);
+}
+
+.card_item:nth-child(3) .card_image {
+    background-image: url(../img/pie.png);
+}
+
+.card_item:nth-child(4) .card_image {
+    background-image: url(../img/Cupcake.png);
+}
+
+.card_item:nth-child(5) .card_image {
+    background-image: url(../img/sauce.png);
+}
+
+.card_item:nth-child(6) .card_image {
+    background-image: url(../img/guacamole.png);
+}
+
+.card_title {
+	font-family: Lexend Exa;
+	font-size: 18px;
+	line-height: 30px;
+	margin-left: 10px;
+	color: #000000;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.card_subtitle {
+	font-family: Lexend Exa;
+	font-size: 10px;
+	line-height: 17px;
+	color: #000000;
+	margin-bottom: 6px;
+}
+
+.card_author {
+	margin-bottom: 12px;
+	font-family: Lexend Exa;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000000;
+}
+
+.author_link {
+	margin-bottom: 12px;
+	font-family: Lexend Exa;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000000;
+	text-decoration: underline;
+}
+
+.card_raiting {
+	position: absolute;
+	bottom: 10;
+}
+
+.recipes_buttons {
+	display: flex;
+	align-items: center;
+	margin-bottom: 120px;
+	flex-wrap: wrap;
+}
+
+.recipes_button {
+	padding: 15px 15px;
+	border: 1px solid #CACACA;
+	color: #000;
+	background-color: #fff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: Lexend Exa;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+	color: #000000;
+	margin-right: 22px;
+	cursor: pointer;
+	outline: none;
+	margin-bottom: 10px;
+}
+
+.subscribe {
+	background: #f3f3f3;
+	padding: 20px 0 50px 0;
+	
+	
+}
+
+.subscribe .wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.email_form_title {
+	font-family: Lexend Exa;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 24px;
+}
+
+.email_form_subtitle {
+	font-family: Lexend Exa;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 21px;
+}
+
+.email_input {
+	font-family: Lexend Exa;
+	background: #F7F7F7;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	text-align: center;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 18px;
+	padding: 10px 10px;
+}
+
+.learn_more_list{
+	margin-right: 90px;
+}
+
+.learn_more_item {
+	font-family: Lexend Exa;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+.learn_more_title {
+	font-size: 18px;
+	line-height: 22px;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.learn_more_link{
+	color:black;
+	text-decoration: none;
+}
+
+.connect {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.connect_title {
+	font-family: Lexend Exa;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 12px;
+}
+
+.connect_subtitle {
+	font-family: Lexend Exa;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 15px;
+}
+
+.social_links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.social_link {
+	padding: 0 5%;
+	margin-bottom: 10px;
+}
+
+.social_link img {
+	width: 32px;
+	height: 32px;
+}
+
+.footer{
+	background: white;
+	padding: 26px 0px;
+}
+
+.footer .wrapper{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.terms_list{
+	display: flex;
+	justify-content:  space-between;
+	margin-bottom: 57px;
+}
+.img_footer{
+	width: 175px;
+	height: 150.48px;
+	background-image: url(../img/logo.png);
+	mix-blend-mode: hard-light;
+	margin: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 15.5px;
+}
+.copyright{
+	font-family: Lexend Exa;
+	font-size: 11px;
+	text-align: center;
+	line-height: 14px;
+	margin-bottom: 26px;
+}
+.terms_element a{
+	font-family: Lexend Exa;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	text-decoration-line: underline;
+	color: black;
+}
+
+.hideform {
+    display: none;
+}
+
+#close{
+	background: white;
+	outline: none;
+	border: none;
+	float: right;
+	position: absolute;
+	right: 20px;
+	top: 15px;
+	font-size: 18px;
+	cursor: pointer;
+	
+}
+form .data label{
+	font-family: Lexend Exa;
+	font-size: 18px;
+}
+form .data input{
+	margin: 20px 0;
+	font-family: Lexend Exa; 
+	height: 45px;
+	width: 100%;
+	padding-left: 10px;
+	font-size: 17px;
+	border: 1px solid silver;
+	
+}
+form .data input:focus{
+	border-color: #3498db;
+	border-bottom-width: 2px;
+}
+
+form .forgot-pass a{
+	color: #3498db;
+	text-decoration: none;
+	font-family: Lexend Exa;
+}
+form .forgot-pass a:hover{
+	text-decoration: underline;
+}
+form .btn{
+	margin: 30px 0;
+	height: 45px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+form .btn .inner{
+	height: 100%;
+	width: 300%;
+	position: absolute;
+	left: -100%;
+	z-index: -1;
+	background: -webkit-linear-gradient(left, #000000, #333333, #666666);
+	transition: all 0.4s;
+}
+form .btn:hover .inner{
+	left: 0;
+}
+form .btn button{
+	height: 100%;
+	width: 100%;
+	background: none;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	font-family: Lexend Exa;
+}
+
+form .signup-link{
+	text-align: center;
+	font-family: Lexend Exa;
+}
+form .signup-link a{
+	font-family: Lexend Exa;
+	color: #3498db;
+	text-decoration: none;
+}
+form .signup-link a:hover{
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+
+.header{
+	padding: 0 20px;
+}
+	
+.header_title{
+	font-size: 30px;
+}
+	
+.sign_in_link{
+	font-size: 12px;
+	max-width: 100px;
+	border: none;
+	height: 36px;
+}
+
+.subscribe_link{
+	font-size: 12px;
+}
+
+.slider{
+	display: block;
+	max-width: 738px;
+	margin-left: 16px;	
+}
+	
+.slider_bg{
+	left:0;
+}
+		
+.search{
+	max-width: 160px;
+	max-height: 36px;
+}
+
+.search_input{
+	font-size: 16px;
+	padding-left: 30px;
+		
+}
+	
+.recipes{
+	margin-left: 20px;
+}
+.connect{
+	margin-right: 20px;
+}
+	
+.learn_more_list{
+	margin-right: 70px;
+	margin-left: 30px;
+}
+	
+.email_form{
+	margin-left: 20px;
+}
+	
+.footer .wrapper{
+	margin: 0 20 0 20px;
+}
+	
+.email_input{
+	max-width: 240px;
+}
+	
+	
+}
+
+.modal {
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    max-width: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+    box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2); 
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: 0.3s all;
+}
+
+.modal.active,
+.overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+.overlay {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 20;
+    transition: .3s all;
+}
+
+@media(max-width: 375px){
+
+.slider{
+	display: block;
+	max-width: 360px;
+	margin-left:8px;
+	max-height: 300px;
+}
+	
+.slider_bg{
+	height: 340px;
+}
+	
+.swiper_1_txt{
+	font-size:24px;
+	left: 20px;
+	top: 200px; 
+}
+	
+.tranding_title{
+	margin-top: 50px;
+	margin-bottom: -50px;
+}
+	
+.recipes{
+	margin-left: 60px;
+}
+	
+.nav_link{
+	font-size: 15px;
+	margin-top: -0px;
+	padding: 7px 0 7px 0;
+	width: 250px;
+	text-shadow: 1px black;
+}
+	
+.nav_list{
+	margin-top: -100px;
+	width: 350px;
+}
+	
+.hero_title{
+	font-size:55px;
+	line-height: 60px;
+	margin-top: 160px;
+}
+	
+.subscribe{
+	display: flex;
+	justify-content: space-around;
+}
+	
+.subscribe .wrapper{
+	display: block;
+}
+	
+.email_form{
+	max-width: 300px;
+	margin-left: auto;
+	margin-right:auto;
+	padding-bottom: 30px;
+}
+	
+.email_form_el{
+	justify-content: center;
+}
+	
+.email_form_title{
+	margin-bottom: 20px;
+}
+	
+.social_links{
+	display: flex;
+	justify-content: center;
+	max-width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+}
+	
+.learn_more_list{
+	margin-left:auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+}
+	
+.connect{
+	margin: 0px;
+}
+	
+.terms_element a{
+	font-size: 11px;
+	display: block;
+}
+	
+.terms{
+	display: flex;
+	justify-content: space-evenly;
+}
+	
+.card_subtitle{
+	margin: 0 0 5 10px;
+}
+	
+.card_author{
+	margin-left: 10px;
+}
+	
+.card_raiting{
+	margin-left: 10px;
+}
+	
+.header{
+	height: 160px;
+	display: block;
+}
+	
+.subscribe_link{
+	width: 70px;
+	margin-top: 20px;
+	margin-left: 66px;
+}
+	
+.sign_in_link{
+	margin-top: -36px;
+	margin-left: 190px;
+	height:36px;
+	border: none;
+		
+}
+	
+.search{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 38px;
+}
+	
+.header_title{
+	margin-top: 0;
+}
+	
+.search_input{
+	width:160px;
+}
+	
+.modal{
+	max-width: 250;
+}
+
+}
+
+@media(max-width: 1200){
+	
+}
