@@ -184,10 +184,14 @@
 	position: absolute;
 }
 .swiper-button-next{
-	color:black;
+	color:white;
+    -webkit-text-stroke: 1px black;
+	outline:none;
 }	
 .swiper-button-prev{
-	color:black;
+	color:white;
+    -webkit-text-stroke: 1px black;
+	outline:none;
 }
 .swiper-pagination-bullet-active {
 	background-color: black;
