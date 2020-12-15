@@ -1,187 +1,200 @@
 <html lang="en">
     <head>
 		<meta charset="utf-8">
-        <title>Squash</title>
-        <link href="https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap" rel="stylesheet">
+        <!-- Title -->
+		<title>Squash</title>
+        <!-- Favicon -->
+		<link type="image/x-icon" rel="shortcut icon" href="img/favicon.png">
+		<!-- Lexend Exa font -->
+		<link href="https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap" rel="stylesheet">
+		<!-- The Girl Next door font -->
 		<link href="https://fonts.googleapis.com/css?family=The+Girl Next Door&display=swap" rel="stylesheet">
+		<!-- Reset CSS styles -->
 		<link rel="stylesheet" href="./css/reset.css">
+		<!-- Swiper styles -->
 		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-        <link rel="stylesheet" href="./css/styles.css">
+        <!-- Main styles -->
+		<link rel="stylesheet" href="./css/styles.css">
+		<!-- Second page styles -->
 		<link rel="stylesheet" href="./css/second_style_page.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     </head>
 	<body>
-	<div class="modal" data-modal="1">
-				<form action="#">
-					<button id="close" class="close">X</button>
+		<!-- Modal window -->
+		<div class="modal" data-modal="1">
+			<form action="#">
+				<button id="close" class="close">X</button>
 					<div class="data">
-							<label>Email or Phone</label>
-							<input type="text" required>
+						<label>Email or Phone</label>
+						<input type="text" required>
+				</div>
+				<div class="data">
+					<label>Password</label>
+					<input type="password" required>
+				</div>
+				<div class="forgot-pass">
+					<a href="#">Forgot Password?</a>
+				</div>
+				<div class="btn">
+					<div class="inner">
 					</div>
-					<div class="data">
-						<label>Password</label>
-						<input type="password" required>
-					</div>
-					<div class="forgot-pass">
-						<a href="#">Forgot Password?</a>
-					</div>
-					<div class="btn">
-						<div class="inner">
-						</div>
-						<button type="submit">login</button>
-					</div>
-					<div class="signup-link">
+					<button type="submit">login</button>
+				</div>
+				<div class="signup-link">
 					Not a member? <a href="#">Signup now</a>
+				</div>
+			</form>
+		</div>
+		<!-- Modal window overlay -->
+		<div class="overlay"></div>
+		<!-- Header -->
+		<header class="header">
+			<h1 class="header_title"><a href="index.html">Culinophilia</a></h1>
+			<form class="search">
+				<input type="text" class="search_input" placeholder="Find a recipe">
+			</form>
+			<a href="" target="blank" class="subscribe_link">Subscribe</a>
+			<button class="sign_in_link" data-modal="1" id="show">Sign in</button>
+		</header>
+		<!-- Main content section -->
+		<section class="main_content">
+			<div>
+				<h1 class="second_header_title">Simple Roasted Butternut Squash</h1>
+				<div class="total_raiting">
+					<div class="card_raiting_2">
+						<img src="img/yellow-star.png" alt="star">
+						<img src="img/yellow-star.png" alt="star">
+						<img src="img/yellow-star.png" alt="star">
+						<img src="img/grey-star.png" alt="star">
+						<img src="img/grey-star.png" alt="star">
 					</div>
-				</form>
+					<a href="" class="raiting_2">1,291 ratings</a>
+				</div>
+				<p class="butternut">Butternut squash is so good on its own, that barely any seasoning is needed.<br>This recipe is so simple and easy.</p>
 			</div>
-			<div class="overlay"></div>
-			<header class="header">
-				<h1 class="header_title">Culinophilia</h1>
-				<form class="search">
-					<input type="text" class="search_input" placeholder="Find a recipe">
-				</form>
-				<a href="" target="blank" class="subscribe_link">Subscribe</a>
-				<button class="sign_in_link" data-modal="1" id="show">Sign in</button>
-			</header>
-			<section class="main_content">
-				<div>
-					<h1 class="second_header_title">Simple Roasted Butternut Squash</h1>
-					<div class="total_raiting">
-						<div class="card_raiting_2">
-							<img src="img/yellow-star.png" alt="star">
-							<img src="img/yellow-star.png" alt="star">
-							<img src="img/yellow-star.png" alt="star">
-							<img src="img/grey-star.png" alt="star">
-							<img src="img/grey-star.png" alt="star">
-						</div>
-						<a href="" class="raiting_2">1,291 ratings</a>
-					</div>
-					<p class="butternut">Butternut squash is so good on its own, that barely any seasoning is needed.<br>This recipe is so simple and easy.</p>
+			<div class="video_wrapper">
+				<div class="video_frame">
+				<iframe class="video" width="645" height="460" src="https://www.youtube.com/embed/pSVGJl4Gg-4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
-				<div class="video_wrapper">
-					<div class="video_frame">
-					<iframe class="video" width="645" height="460" src="https://www.youtube.com/embed/pSVGJl4Gg-4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="prep">
-						<p class="prep_text">Prep: 15 mins</p>
-						<p class="prep_text">Cook: 2 mins</p>
-						<p class="prep_text">Total: 40 mins</p>
-						<p class="prep_text">Servings: 4</p>
-					</div>
-					<div class="my-gallery">
-							<img  class="gallery-image" id="gallery-image_1" src="img/squash2.png" alt="Alt 1" />
-							<img  class="gallery-image" src="img/squash3.png" alt="Alt 2" />
-							<img  class="gallery-image" src="img/squash4.png" alt="Alt 3" />
-					</div>
+				<div class="prep">
+					<p class="prep_text">Prep: 15 mins</p>
+					<p class="prep_text">Cook: 2 mins</p>
+					<p class="prep_text">Total: 40 mins</p>
+					<p class="prep_text">Servings: 4</p>
 				</div>
-				<span class="first_line"></span>
-				<div class="ingredients">
-					<h2 class="header_ingredients">Ingredients</h2>
-					<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-					<label class="vehicle_label" for="vehicle1"> 1 butternut squash - peeled, seeded, and cut into 1-inch cubes</label><br>
-					<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-					<label class="vehicle_label" for="vehicle2"> 2 tablespoons olive oil</label><br>
-					<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-					<label class="vehicle_label" for="vehicle3"> 2 cloves garlic, minced</label><br>
+				<div class="my-gallery">
+						<img  class="gallery-image" id="gallery-image_1" src="img/squash2.png" alt="Alt 1" />
+						<img  class="gallery-image" src="img/squash3.png" alt="Alt 2" />
+						<img  class="gallery-image" src="img/squash4.png" alt="Alt 3" />
+				</div>
+			</div>
+			<span class="first_line"></span>
+			<div class="ingredients">
+				<h2 class="header_ingredients">Ingredients</h2>
+				<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+				<label class="vehicle_label" for="vehicle1"> 1 butternut squash - peeled, seeded, and cut into 1-inch cubes</label><br>
+				<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+				<label class="vehicle_label" for="vehicle2"> 2 tablespoons olive oil</label><br>
+				<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+				<label class="vehicle_label" for="vehicle3"> 2 cloves garlic, minced</label><br>
 					<input type="checkbox" id="vehicle4" name="vehicle3" value="Boat">
-					<label class="vehicle_label" for="vehicle4"> salt and ground black pepper to taste</label><br>
+				<label class="vehicle_label" for="vehicle4"> salt and ground black pepper to taste</label><br>
+			</div>
+			<span class="first_line"></span>
+			<div class="directions">
+				<h2 class="direction-title">Directions</h2>
+				<ul class="directions_list">
+					<li class="direction_el">
+						<div class="direction_title_container">
+							<img src="img/check.png" alt="check">
+							<h3 class="direction_el_title">Step 1</h3>
+						</div>
+						<p class="direction_el_description">
+							Preheat oven to 400 degrees F (200 degrees C).
+						</p>
+					</li>
+					<li class="direction_el">
+						<div class="direction_title_container">
+							<img src="img/check.png" alt="check">
+							<h3 class="direction_el_title">Step 2</h3>
+						</div>
+						<p class="direction_el_description">
+							Toss butternut squash with olive oil and garlic in a large bowl. Season with salt 
+							and black pepper. Arrange coated squash on a baking sheet.
+						</p>
+					</li>
+					<li class="direction_el">
+						<div class="direction_title_container">
+							<img src="img/check.png" alt="check">
+							<h3 class="direction_el_title">Step 3</h3>
+						</div>
+						<p class="direction_el_description">
+							Roast in the preheated oven until squash is tender and lightly browned, 
+							25 to 30 minutes.
+						</p>
+					</li>
+				</ul>
+				<div class="directions_btns">
+					<button class="direction-btn">I made it</button>
+					<button class="direction-btn">Print</button>
 				</div>
 				<span class="first_line"></span>
-				<div class="directions">
-					<h2 class="direction-title">Directions</h2>
-					<ul class="directions_list">
-						<li class="direction_el">
-							<div class="direction_title_container">
-								<img src="img/check.png" alt="check">
-								<h3 class="direction_el_title">Step 1</h3>
-							</div>
-							
-							<p class="direction_el_description">
-								Preheat oven to 400 degrees F (200 degrees C).
-							</p>
-						</li>
-						<li class="direction_el">
-							<div class="direction_title_container">
-								<img src="img/check.png" alt="check">
-								<h3 class="direction_el_title">Step 2</h3>
-							</div>
-							<p class="direction_el_description">
-								Toss butternut squash with olive oil and garlic in a large bowl. Season with salt 
-								and black pepper. Arrange coated squash on a baking sheet.
-							</p>
-						</li>
-						<li class="direction_el">
-							<div class="direction_title_container">
-								<img src="img/check.png" alt="check">
-								<h3 class="direction_el_title">Step 3</h3>
-							</div>
-							<p class="direction_el_description">
-								Roast in the preheated oven until squash is tender and lightly browned, 
-								25 to 30 minutes.
-							</p>
-						</li>
+			</div>
+			<div class="nutrition">
+				<h2 class="nutrition_title">Nutrition Facts</h2>
+				<p class="nutrition_description">
+					Per Serving:<br>
+					177 calories; protein 2.6g 5% DV; carbohydrates 30.3g 10% DV; 
+					fat 7g 11% DV; sodium 10.6mg.
+				</p>
+			</div>
+		</section>
+		<!-- Subscribe section -->
+		<section class="subscribe">
+			<div class="wrapper">
+				<ul class="email_form">
+					<li class="email_form_el"><p class="email_form_title">Subscribe</p></li>
+					<li class="email_form_el"><p class="email_form_subtitle">E-mail</p></li>
+					<li class="email_form_el"><input class="email_input" type="email" placeholder="yourmail@mail.com"></li>
+				</ul>
+				<ul class="learn_more_list">
+					<li class="learn_more_item"><h2 class="learn_more_title">Learn More</h2></li>
+					<li class="learn_more_item"><a href="#" class="learn_more_link"><p>About us</p></a></li>
+					<li class="learn_more_item"><a href="#"	class="learn_more_link"><p>Subscribe</p></a></li>
+					<li class="learn_more_item"><a href="#"	class="learn_more_link"><p>Adversite</p></a></li>
+					<li class="learn_more_item"><a href="#"	class="learn_more_link"><p>Site map</p></a></li>
+				</ul>
+				<div class="connect">
+					<h3 class="connect_title">Connect</h3>
+					<p class="connect_subtitle">Follow us</p>
+					<ul class="social_links">
+						<li onclick="location.href='#';" class="social_link"><img src="./img/twitter.png" alt="twitter" class="social_link_img"><a href="#"></a></li>
+						<li onclick="location.href='#';" class="social_link"><img src="./img/instagram.png" alt="instagram" class="social_link_img"></li>
+						<li onclick="location.href='#';" class="social_link"><img src="./img/facebook.png" alt="facebook" class="social_link_img"></li>
+						<li onclick="location.href='#';" class="social_link"><img src="./img/youtube.png" alt="youtube" class="social_link_img"></li>
+						<li onclick="location.href='#';" class="social_link"><img src="./img/linkedin.png" alt="linkedin" class="social_link_img"></li>
+						<li onclick="location.href='#';" class="social_link"><img src="./img/printerest.png" alt="printerest" class="social_link_img"></li>
 					</ul>
-					<div class="directions_btns">
-						<button class="direction-btn">I made it</button>
-						<button class="direction-btn">Print</button>
-					</div>
-					<span class="first_line"></span>
 				</div>
-				<div class="nutrition">
-					<h2 class="nutrition_title">Nutrition Facts</h2>
-					<p class="nutrition_description">
-						Per Serving:<br>
-						177 calories; protein 2.6g 5% DV; carbohydrates 30.3g 10% DV; 
-						fat 7g 11% DV; sodium 10.6mg.
-					</p>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="wrapper">
+				<div class="img_footer">	
 				</div>
-			</section>
-			<section class="subscribe">
-					<div class="wrapper">
-						<ul class="email_form">
-							<li class="email_form_el"><p class="email_form_title">Subscribe</p></li>
-							<li class="email_form_el"><p class="email_form_subtitle">E-mail</p></li>
-							<li class="email_form_el"><input class="email_input" type="email" placeholder="yourmail@mail.com"></li>
-						</ul>
-						<ul class="learn_more_list">
-							<li class="learn_more_item"><h2 class="learn_more_title">Learn More</h2></li>
-							<li class="learn_more_item"><a href="#" class="learn_more_link"><p>About us</p></a></li>
-							<li class="learn_more_item"><a href="#"	class="learn_more_link"><p>Subscribe</p></a></li>
-							<li class="learn_more_item"><a href="#"	class="learn_more_link"><p>Adversite</p></a></li>
-							<li class="learn_more_item"><a href="#"	class="learn_more_link"><p>Site map</p></a></li>
-						</ul>
-						<div class="connect">
-							<h3 class="connect_title">Connect</h3>
-							<p class="connect_subtitle">Follow us</p>
-							<ul class="social_links">
-								<li onclick="location.href='#';" class="social_link"><img src="./img/twitter.png" alt="twitter" class="social_link_img"><a href="#"></a></li>
-								<li onclick="location.href='#';" class="social_link"><img src="./img/instagram.png" alt="instagram" class="social_link_img"></li>
-								<li onclick="location.href='#';" class="social_link"><img src="./img/facebook.png" alt="facebook" class="social_link_img"></li>
-								<li onclick="location.href='#';" class="social_link"><img src="./img/youtube.png" alt="youtube" class="social_link_img"></li>
-								<li onclick="location.href='#';" class="social_link"><img src="./img/linkedin.png" alt="linkedin" class="social_link_img"></li>
-								<li onclick="location.href='#';" class="social_link"><img src="./img/printerest.png" alt="printerest" class="social_link_img"></li>
-							</ul>
-						</div>
-					</div>
-				</section>
-				<footer class="footer">
-					<div class="wrapper">
-						<div class="img_footer">	
-						</div>
-						<p class="copyright">Culinophilia is part of the Valson’s Food Group. © Copyright 2020 Valson’s food group link opens in a new tab. All Rights Reserved.	</p>
-						<div class="terms">
-							<ul class="terms_list">
-								<li class="terms_element"><a href="#">Privacy policy</a></li>
-								<li class="terms_element"><a href="#">Terms of service</a></li>
-								<li class="terms_element"><a href="#">Ad choices</a></li>
-								<li class="terms_element"><a href="#">Web accessibility</a></li>
-							</ul>
-						</div>
-					</div>
-				</footer>
-		  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-			<script src="./js/main.js"></script>
+				<p class="copyright">Culinophilia is part of the Valson’s Food Group. © Copyright 2020 Valson’s food group link opens in a new tab. All Rights Reserved.	</p>
+				<div class="terms">
+					<ul class="terms_list">
+						<li class="terms_element"><a href="#">Privacy policy</a></li>
+						<li class="terms_element"><a href="#">Terms of service</a></li>
+						<li class="terms_element"><a href="#">Ad choices</a></li>
+						<li class="terms_element"><a href="#">Web accessibility</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="./js/main.js"></script>
 	</body>
 </html>

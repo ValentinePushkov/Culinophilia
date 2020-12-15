@@ -1,4 +1,4 @@
-
+//Swiper scripts
 var swiper = new Swiper('.swiper-container', {
     cssMode: true,
     navigation: {
@@ -10,9 +10,10 @@ var swiper = new Swiper('.swiper-container', {
     },
     mousewheel: true,
     keyboard: true,
-  });
-  
-document.addEventListener('DOMContentLoaded', function() {
+});
+ 
+//Modal window pop up
+ document.addEventListener('DOMContentLoaded', function() {
 
    /* Записываем в переменные массив элементов-кнопок и подложку.
       Подложке зададим id, чтобы не влиять на другие элементы с классом overlay*/
@@ -72,4 +73,12 @@ document.addEventListener('DOMContentLoaded', function() {
 	});
 	
 });
+
+//XML
+var xml = "<?xml version = '1.0'?>" + "<head>Culinophilia</head>";
+var parser = new DOMParser();
+var xmlDoc = parser.parseFromString(xml, "text/xml");
+var names = xmlDoc.getElementsByTagName("head");
+var title = document.getElementsByTagName("title");
+title[0].innerHTML = names[0].innerHTML;
 

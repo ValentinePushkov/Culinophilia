@@ -14,12 +14,14 @@
 	margin-bottom: 20px;
 }
 
+.header_title a{
+	color: white;
+	text-decoration: none;
+}
+
 .total_raiting{
 	display: flex;
 	align-items: center;
-}
-
-.card_raiting_2{
 }
 
 .raiting_2{
@@ -108,14 +110,14 @@
 
 input[type=checkbox]
 {
-  /* Double-sized Checkboxes */
-  -ms-transform: scale(2); /* IE */
-  -moz-transform: scale(2); /* FF */
-  -webkit-transform: scale(1,5); /* Safari and Chrome */
-  -o-transform: scale(2); /* Opera */
-  transform: scale(2);
-  margin-top: 24px;
-  font-family: Lexend Exa;
+	/* Double-sized Checkboxes */
+	-ms-transform: scale(2); /* IE */
+	-moz-transform: scale(2); /* FF */
+	-webkit-transform: scale(1,5); /* Safari and Chrome */
+	-o-transform: scale(2); /* Opera */
+	transform: scale(2);
+	margin-top: 24px;
+	font-family: Lexend Exa;
 }
 
 .checkbox{
@@ -214,80 +216,89 @@ input[type=checkbox]
 }
 
 @media (max-width: 1400px) {
-	.main_content {
-		max-width: 1000px;
-	}
+
+.main_content {
+	max-width: 1000px;
+}
+
 }
 
 @media (max-width: 1080px) {
-	.main_content {
-		max-width: 800px;
-	}
 
-	.my-gallery {
-		margin-top: 20px;
-	}
+.main_content {
+	max-width: 800px;
+}
+
+.my-gallery {
+	margin-top: 20px;
+}
 	
-	.prep {
-		display: none;
-	}
+.prep {
+	display: none;
+}
+
 }
 
 @media (max-width: 920px) {
-	.main_content {
-		max-width: 100%;
-		padding: 0 20px;
-	}
+.main_content {
+	max-width: 100%;
+	padding: 0 20px;
+}
+
 }
 
 @media (max-width: 720px) {
-	.my-gallery {
-		display: none;
-	}
 
-	.direction-btn:nth-child(1) {
-		margin-left: 100px;
-	}
+.my-gallery {
+	display: none;
+}
 
-	.video {
-		width: 500px;
-		height: 320px;
-	}
+.direction-btn:nth-child(1) {
+	margin-left: 100px;
+}
 
-	.first_line {
-		width: 300px;
-	}
+.video {
+	width: 500px;
+	height: 320px;
+}
+
+.first_line {
+	width: 300px;
+}
+
 }
 
 @media (max-width: 620px) {
 
-	.video {
-		width: 400px;
-		height: 220px;
-	}
+.video {
+	width: 400px;
+	height: 220px;
+}
 
-	.direction-btn:nth-child(1) {
-		margin-left: 50px;
-		margin-bottom: 50px;
-	}
+.direction-btn:nth-child(1) {
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
 
-	.directions_btns {
-		flex-direction: column;
-	}
+.directions_btns {
+	flex-direction: column;
+}
+
 }
 
 @media (max-width: 440px) {
 
-	.video {
-		width: 300px;
-		height: 180px;
-	}
+.video {
+	width: 300px;
+	height: 180px;
+}
 
-	.direction-btn:nth-child(1) {
-		margin-left: 25px;
-	}
+.direction-btn:nth-child(1) {
+	margin-left: 25px;
+}
 
-	.direction-btn:nth-child(2) {
-		margin-left: 25px;
-	}
+.direction-btn:nth-child(2) {
+	margin-left: 25px;
+}
+
 }

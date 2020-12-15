@@ -3,7 +3,6 @@
 	margin: auto;
 }
 
-
 .header{
     height: 80px;
 	background-color: #272727;
@@ -639,12 +638,13 @@ form .signup-link a:hover{
 		
 .search{
 	max-width: 160px;
-	max-height: 36px;
+	max-height: 32px;
 }
 
 .search_input{
 	font-size: 16px;
 	padding-left: 30px;
+	max-height: 36px;
 		
 }
 	
@@ -711,6 +711,10 @@ form .signup-link a:hover{
 }
 
 @media(max-width: 375px){
+
+.header_title{
+	padding-top: 10px;
+}
 
 .slider{
 	display: block;
@@ -830,28 +834,24 @@ form .signup-link a:hover{
 .subscribe_link{
 	width: 70px;
 	margin-top: 20px;
-	margin-left: 66px;
+	margin-left: 60px;
 }
 	
 .sign_in_link{
 	margin-top: -36px;
-	margin-left: 190px;
+	margin-left: 193px;
 	height:36px;
-	border: none;
-		
+	border: none;	
 }
 	
 .search{
 	margin-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 60px;
+	max-width: 172px;
 	height: 38px;
+	width: 217px;
 }
-	
-.header_title{
-	margin-top: 0;
-}
-	
+		
 .search_input{
 	width:160px;
 }
@@ -860,8 +860,4 @@ form .signup-link a:hover{
 	max-width: 250;
 }
 
-}
-
-@media(max-width: 1200){
-	
 }
